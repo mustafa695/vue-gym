@@ -4,22 +4,22 @@ import MainHeading from "../MainHeading.vue";
 
 const data = [
   {
-    icon: "src/assets/images/glove.png",
+    icon: "/assets/images/glove.png",
     title: "Trainer Qualifications",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
   },
   {
-    icon: "src/assets/images/dumbbell.png",
+    icon: "/assets/images/dumbbell.png",
     title: "Facility Amenities",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
   },
   {
-    icon: "src/assets/images/money.png",
+    icon: "/assets/images/money.png",
     title: "Membership Cost",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
   },
   {
-    icon: "src/assets/images/time.png",
+    icon: "/assets/images/time.png",
     title: "Operation Hours",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
   },
@@ -62,19 +62,19 @@ const data = [
           <div class="flex flex-col gap-4">
             <div>
               <Image
-                url="/src/assets/images/gym-1.png"
+                url="/assets/images/gym-1.png"
                 class="w-full h-auto object-contain"
               />
             </div>
             <div>
               <Image
-                url="/src/assets/images/gym-2.png"
+                url="/assets/images/gym-2.png"
                 class="w-full h-auto object-contain"
               />
             </div>
           </div>
           <div>
-            <Image url="/src/assets/images/gym-3.png" class="w-full h-auto" />
+            <Image url="/assets/images/gym-3.png" class="w-full h-auto" />
           </div>
         </div>
       </div>

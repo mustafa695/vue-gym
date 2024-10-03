@@ -9,11 +9,11 @@ import MainHeading from "../MainHeading.vue";
     <div class="lg:w-2/5 w-full lg:min-w-max">
       <div class="flex items-stretch gap-4">
         <Image
-          url="/src/assets/images/coach-1.jpeg"
+          url="/assets/images/coach-1.jpeg"
           class="lg:w-[160px] w-2/5 h-[260px] object-cover rounded-xl shadow-sm drop-shadow-md "
         />
         <Image
-          url="/src/assets/images/coach-2.jpeg"
+          url="/assets/images/coach-2.jpeg"
           class="lg:w-[240px] w-3/5 h-[260px] object-cover rounded-xl shadow-sm drop-shadow-md"
         />
       </div>

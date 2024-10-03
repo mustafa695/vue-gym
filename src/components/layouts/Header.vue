@@ -7,7 +7,7 @@ const menu = ["Home", "About", "Trainers", "Review", "Plans"];
 
 <template>
   <div class="wrapper flex gap-4 items-center py-4 z-50">
-    <Image class="w-28 h-14 object-contain" url="src/assets/images/logo.png" />
+    <Image class="w-28 h-14 object-contain" url="/assets/images/logo.png" />
     <div class="items-center gap-3 flex-1 justify-center md:flex hidden">
       <a
         href="#"

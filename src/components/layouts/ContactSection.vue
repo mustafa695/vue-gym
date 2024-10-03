@@ -5,7 +5,7 @@ import Image from "../Image.vue";
 <template>
   <div class="pt-12 relative">
     <Image
-      url="src/assets/images/contact.png"
+      url="/assets/images/contact.png"
       class="w-full sm:h-[400px] h-80 object-cover"
     />
     <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">

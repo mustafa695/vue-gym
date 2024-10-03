@@ -6,7 +6,7 @@ import Image from "../Image.vue";
   <div class="wrapper py-16">
     <div class="grid md:grid-cols-3 grid-cols-1 gap-4">
       <div>
-        <Image url="src/assets/images/logo.png" class="w-44 h-auto" />
+        <Image url="/assets/images/logo.png" class="w-44 h-auto" />
         <p class="text-[#919191] pt-4">
           Whether you’re curling up with a good book or hosting a festive
           holiday gathering, a fireplace makes every moment feel special and
@@ -115,7 +115,7 @@ import Image from "../Image.vue";
         <div class="flex flex-col gap-6">
           <div class="flex items-center gap-4">
             <Image
-              url="src/assets/images/location.png"
+              url="/assets/images/location.png"
               class="w-8 h-auto object-contain"
             />
             <div>
@@ -125,7 +125,7 @@ import Image from "../Image.vue";
           </div>
           <div class="flex items-center gap-4">
             <Image
-              url="src/assets/images/phone.png"
+              url="/assets/images/phone.png"
               class="w-8 h-auto object-contain"
             />
             <div>
@@ -135,7 +135,7 @@ import Image from "../Image.vue";
           </div>
           <div class="flex items-center gap-4">
             <Image
-              url="src/assets/images/clock.png"
+              url="/assets/images/clock.png"
               class="w-8 h-auto object-contain"
             />
             <div>

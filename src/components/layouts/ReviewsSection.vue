@@ -71,7 +71,7 @@ const reviews = [
     <div class="grid lg:grid-cols-3 grid-cols-1 gap-4">
       <div>
         <Image
-          url="/src/assets/images/profiles.png"
+          url="/assets/images/profiles.png"
           class="lg:w-full w-9/12 lg:mx-0 mx-auto h-auto object-contain"
         />
       </div>
@@ -80,7 +80,7 @@ const reviews = [
           <Slide v-for="(item, index) in reviews" :key="index">
             <div class="border border-black/40 rounded-2xl w-[450px]">
               <Image
-                url="/src/assets/images/logo.png"
+                url="/assets/images/logo.png"
                 class="ml-auto w-[86px] h-auto object-contain px-4 pt-3"
               />
               <div class="px-4 pb-4 -mt-1">

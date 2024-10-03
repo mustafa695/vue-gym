@@ -73,7 +73,7 @@ import Image from "../Image.vue";
     <!-- <div class="w-full relative"> -->
     <div class="absolute right-0 bottom-0 h-full lg:block hidden">
       <Image
-        url="/src/assets/images/banner.png"
+        url="/assets/images/banner.png"
         class="w-full h-full object-contain ml-auto"
       />
       <!-- </div> -->
