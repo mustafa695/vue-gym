@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Signika", sans-serif;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1530px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel__slide{
+  padding: 12px;
+  text-align: left;
+  max-width: 480px !important;
+  align-items: stretch !important;
+}
